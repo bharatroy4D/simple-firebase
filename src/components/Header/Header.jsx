@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
         <div>
-            <h2>This is a Header</h2>
+            <Link to ="/">Home</Link>
+            <Link to ="/login">google Login</Link>
         </div>
     );
 };
